@@ -35,6 +35,9 @@ namespace AppArray
             catch
             {
                 Console.WriteLine("Ошибка! Проверьте наличие файла input.txt");
+
+                Console.ReadKey();
+
                 return;
             }
 
